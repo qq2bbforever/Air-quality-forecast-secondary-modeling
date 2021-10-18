@@ -1,0 +1,13 @@
+# ## Question 2
+# Under the condition that the pollutant discharge situation remains unchanged, when the meteorological conditions in a certain area are conducive to 
+# the diffusion or settlement of pollutants, the AQI of the area will decrease, and vice versa. Use the data in Annex 1 to reasonably classify meteorological 
+# conditions according to the degree of influence on the concentration of pollutants, and describe the characteristics of various meteorological conditions.
+
+## Use the clustering algorithm to perform cluster analysis on the data. The data used for clustering can use the AQI data calculated by each pollutant,
+## The data can be regarded as data in the same dimension, and there is no need to standardize the data
+## (Although even if the data is in the same dimension, there are still differences in the data value range between variables, whether to continue 
+## standardization does not affect the results of some clusters)
+## Therefore, I compare the clustering differences before and after standardization
+## It is also feasible to use the original monitoring data. When using the original monitoring data, pay attention to the standardization of the data.
+clustdf = IAQIpdf.iloc[:,0:6]
+clustdf.head()
