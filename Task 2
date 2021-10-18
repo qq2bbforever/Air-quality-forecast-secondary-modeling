@@ -18,7 +18,7 @@ from sklearn.metrics import *
 from sklearn.preprocessing import StandardScaler,MinMaxScaler
 from sklearn.manifold import TSNE
 
-# ## Question 2
+# ## Task 2
 # Under the condition that the pollutant discharge situation remains unchanged, when the meteorological conditions in a certain area are conducive to 
 # the diffusion or settlement of pollutants, the AQI of the area will decrease, and vice versa. Use the data in Annex 1 to reasonably classify meteorological 
 # conditions according to the degree of influence on the concentration of pollutants, and describe the characteristics of various meteorological conditions.
