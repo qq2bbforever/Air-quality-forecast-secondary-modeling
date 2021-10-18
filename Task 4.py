@@ -1,24 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-%config InlineBackend.figure_format = 'retina'
-%matplotlib inline    
-import seaborn as sns 
-sns.set(font= "Kaiti",style="ticks",font_scale=1.4)
-import matplotlib
-matplotlib.rcParams['axes.unicode_minus']=False # Solve the display problem of the negative sign of the coordinate axis
-## Import the required libraries
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import missingno as msno 
-import plotly.express as px
-from sklearn.cluster import *
-from sklearn.metrics import *
-from sklearn.preprocessing import StandardScaler,MinMaxScaler
-from sklearn.manifold import TSNE
-from fbprophet import Prophet
-
 # ## Task 4
 # Concentrations of pollutants in adjacent areas often have a certain degree of correlation, and regional coordinated forecasting may improve the accuracy 
 # of air quality forecasts. As shown in Figure 4, there are monitoring points A1, A2, and A3 in the area adjacent to monitoring point A. Use the data in 
