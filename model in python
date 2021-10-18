@@ -3,7 +3,11 @@
 
 # ## Air quality forecast secondary modeling
 # 
-# Atmospheric pollution refers to the fact that certain substances enter the atmosphere due to human activities or natural processes, present a sufficient concentration, reach a sufficient time, and therefore endanger the comfort, health and welfare of the human body or endanger the ecological environment. Pollution prevention and control practices have shown that establishing an air quality forecast model, knowing the process of air pollution that may occur in advance and taking corresponding control measures are one of the effective ways to reduce the harm caused by air pollution to human health and the environment, and to improve ambient air quality.
+# Atmospheric pollution refers to the fact that certain substances enter the atmosphere due to human activities or natural processes, present a sufficient 
+# concentration, reach a sufficient time, and therefore endanger the comfort, health and welfare of the human body or endanger the ecological environment. Pollution 
+# prevention and control practices have shown that establishing an air quality forecast model, knowing the process of air pollution that may occur in advance and 
+# taking corresponding control measures are one of the effective ways to reduce the harm caused by air pollution to human health and the environment, and to improve 
+# ambient air quality.
 
 %config InlineBackend.figure_format = 'retina'
 %matplotlib inline    
