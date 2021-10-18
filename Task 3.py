@@ -1,23 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-%config InlineBackend.figure_format = 'retina'
-%matplotlib inline    
-import seaborn as sns 
-sns.set(font= "Kaiti",style="ticks",font_scale=1.4)
-import matplotlib
-matplotlib.rcParams['axes.unicode_minus']=False # Solve the display problem of the negative sign of the coordinate axis
-## Import the required libraries
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import missingno as msno 
-import plotly.express as px
-from sklearn.cluster import *
-from sklearn.metrics import *
-from sklearn.preprocessing import StandardScaler,MinMaxScaler
-from sklearn.manifold import TSNE
-
 # ## Task 3
 # Using the data in Annexes 1 and 2, establish a secondary forecasting mathematical model that is applicable to three monitoring points A, B, and C 
 # at the same time (the distance between the two monitoring points is more than 100km, ignoring the mutual influence) to predict the future three The 
