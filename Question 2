@@ -11,3 +11,12 @@
 ## It is also feasible to use the original monitoring data. When using the original monitoring data, pay attention to the standardization of the data.
 clustdf = IAQIpdf.iloc[:,0:6]
 clustdf.head()
+
+
+
+
+
+
+
+
+
