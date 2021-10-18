@@ -26,7 +26,7 @@ from sklearn.metrics import *
 from sklearn.preprocessing import StandardScaler,MinMaxScaler
 from sklearn.manifold import TSNE
 
-# ## Question 1
+# ## Task 1
 # Using the data in Annex 1, calculate the AQI and primary pollutants measured daily at monitoring point A from August 25 to August 28, 2020 according to 
 # the method in the appendix
 
