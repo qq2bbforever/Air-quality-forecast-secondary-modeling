@@ -1,0 +1,21 @@
+%config InlineBackend.figure_format = 'retina'
+%matplotlib inline    
+import seaborn as sns 
+sns.set(font= "Kaiti",style="ticks",font_scale=1.4)
+import matplotlib
+matplotlib.rcParams['axes.unicode_minus']=False # 解决坐标轴的负号显示问题
+## 导入需要的库
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import missingno as msno 
+import plotly.express as px
+from sklearn.cluster import *
+from sklearn.metrics import *
+from sklearn.preprocessing import StandardScaler,MinMaxScaler
+from sklearn.manifold import TSNE
+
+
+
+
+#First, Calculate the AQI and primary pollutants measured daily at monitoring point A from August 25 to August 28, 2020 according to the method in the appendix
