@@ -1,4 +1,34 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+%config InlineBackend.figure_format = 'retina'
+%matplotlib inline    
+import seaborn as sns 
+sns.set(font= "Kaiti",style="ticks",font_scale=1.4)
+import matplotlib
+matplotlib.rcParams['axes.unicode_minus']=False # Solve the display problem of the negative sign of the coordinate axis
+## Import the required libraries
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import missingno as msno 
+import plotly.express as px
+from sklearn.cluster import *
+from sklearn.metrics import *
+from sklearn.preprocessing import StandardScaler,MinMaxScaler
+from sklearn.manifold import TSNE
+from fbprophet import Prophet
+
+# ## Task 4
+# Concentrations of pollutants in adjacent areas often have a certain degree of correlation, and regional coordinated forecasting may improve the accuracy 
+# of air quality forecasts. As shown in Figure 4, there are monitoring points A1, A2, and A3 in the area adjacent to monitoring point A. Use the data in 
+# Annexes 1 and 3 to establish a collaborative forecast model that includes four monitoring points A, A1, A2, and A3. The maximum relative error of the AQI 
+# prediction value in the model prediction results should be as small as possible, and the accuracy of the primary pollutant prediction should be as high as 
+# possible. Use this model to predict the single-day concentration values of 6 conventional pollutants at monitoring points A, A1, A2, and A3 from July 13 to 
+# July 15, 2021, and calculate the corresponding AQI and primary pollutants.
+
 ## Task 4 has the same way as Task 3
+
 ## Readin data
 df = IAQIpdf.iloc[:,[6,1]]
 df.columns = ["ds","y"]
